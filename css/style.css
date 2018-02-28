@@ -13,7 +13,7 @@ h1 {
 	margin: 0;
 }
 
-.link {
+a {
 	font-family: Raleway, sans-serif;
 	color: #FFFFFF;
 	letter-spacing: 1px;
@@ -22,11 +22,19 @@ h1 {
 	text-decoration: none;
 	text-transform: uppercase;
 	margin: 0 20px 0 20px;
+	border-bottom: 2px solid transparent;
 }
 
 nav {
 	background-color: #00A6B3;
 	padding: 20px 0 20px 0;
+}
+
+
+}
+
+a:hover {
+	border-color: white;
 }
 
 main {
@@ -57,8 +65,42 @@ p {
 	font-family: "Droid Serif", serif;
 	line-height: 26px;
 	font-size: 18px;
-}3
+}
 
 #otherlink {
 	text-decoration: none;
+	color: red;
+	margin: 0 auto;
+}
+
+footer {
+	text-transform: uppercase;
+	padding: 10px 20px 10px 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+.copyright {
+	float: left;
+}
+
+.message {
+	float: right;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
 }
