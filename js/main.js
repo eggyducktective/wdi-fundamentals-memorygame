@@ -25,3 +25,9 @@ if (numberOfCards === 2) {
 		alert('Sorry, try again');
 	}
 }
+
+// if (numberOfCards === 2 && cardsInPlay[0] === cardsInPlay[3]) {
+// 		alert('You found a match');
+// 	} else {
+// 		alert('Sorry, try again');
+// }
