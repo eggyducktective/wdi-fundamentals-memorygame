@@ -31,8 +31,8 @@ if (numberOfCards === 2 && cardsInPlay[0] === cardsInPlay[1]) {
 
 
 
-flipCard (0);
-flipCard (2);
+flipCard(0);
+flipCard(2);
 
 
 // if (numberOfCards === 2 && cardsInPlay[0] === cardsInPlay[3]) {
